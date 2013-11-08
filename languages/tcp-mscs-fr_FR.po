@@ -1,0 +1,148 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: tcp-mscs\n"
+"POT-Creation-Date: 2013-11-08 14:59+0100\n"
+"PO-Revision-Date: 2013-11-08 23:23+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: French\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ../../\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: thecartpress-myshoppingcartsummary\n"
+
+#: thecartpress-myshoppingcartsummary/myshoppingcartsummary.php:33
+msgid ""
+"Adds an alternative Shopping Cart Summary widget to The Cart Press e-"
+"commerce system"
+msgstr ""
+"Ajoute un widget de rechange pour afficher le Panier Résumé du système e-"
+"commerce The Cart Press"
+
+#: thecartpress-myshoppingcartsummary/myshoppingcartsummary.php:79
+msgid ""
+"<strong>TheCartPress My Shopping Cart Summary</strong> requires TheCartPress "
+"plugin to be activated."
+msgstr ""
+"<strong>TheCartPress My Shopping Cart Summary</strong> nécessite le plugin "
+"TheCartPress est activé."
+
+#: thecartpress-myshoppingcartsummary/myshoppingcartsummary.php:140
+msgid "Shopping cart"
+msgstr "Panier"
+
+#: thecartpress-myshoppingcartsummary/myshoppingcartsummary.php:143
+msgid "Checkout"
+msgstr "Commande"
+
+#: thecartpress-myshoppingcartsummary/myshoppingcartsummary.php:146
+msgid "Delete"
+msgstr "Supprimer"
+
+#: thecartpress-myshoppingcartsummary/myshoppingcartsummary.php:217
+#, php-format
+msgid "Cart %1$s (%2$s items)"
+msgstr "Panier %1$s (%2$s articles)"
+
+#: thecartpress-myshoppingcartsummary/myshoppingcartsummary.php:218
+#, php-format
+msgid "Cart %1$s (1 item)"
+msgstr "Panier %1$s (1 article)"
+
+#: thecartpress-myshoppingcartsummary/myshoppingcartsummary.php:219
+msgid "Cart is empty"
+msgstr "Le panier est vide"
+
+#: thecartpress-myshoppingcartsummary/myshoppingcartsummary.php:220
+#, php-format
+msgid ""
+"Not enough stock for some products. Visit the <a href=\"%s\">Shopping Cart</"
+"a> to see more details."
+msgstr ""
+"Pas assez de stock pour certains produits. Visitez la page du <a href=\"%s"
+"\">panier</a> pour voir les détails."
+
+#: thecartpress-myshoppingcartsummary/myshoppingcartsummary.php:228
+msgid "Title"
+msgstr "Titre"
+
+#: thecartpress-myshoppingcartsummary/myshoppingcartsummary.php:233
+msgid "Load widget css"
+msgstr "Charger css de widget"
+
+#: thecartpress-myshoppingcartsummary/myshoppingcartsummary.php:236
+msgid "Hide if empty"
+msgstr "Cacher si vide"
+
+#: thecartpress-myshoppingcartsummary/myshoppingcartsummary.php:239
+msgid "Link whole cart"
+msgstr "Lier panier entière"
+
+#: thecartpress-myshoppingcartsummary/myshoppingcartsummary.php:242
+msgid "Don't link whole cart if empty"
+msgstr "Pas lier panier entière si vide"
+
+#: thecartpress-myshoppingcartsummary/myshoppingcartsummary.php:245
+msgid "See delete button"
+msgstr "Voir bouton supprimer"
+
+#: thecartpress-myshoppingcartsummary/myshoppingcartsummary.php:248
+msgid "See shopping cart link"
+msgstr "Voir lien du panier"
+
+#: thecartpress-myshoppingcartsummary/myshoppingcartsummary.php:251
+msgid "See checkout link"
+msgstr "Voir lien de la commande"
+
+#: thecartpress-myshoppingcartsummary/myshoppingcartsummary.php:254
+msgid "See stock notice"
+msgstr "Voir  l’info stock"
+
+#: thecartpress-myshoppingcartsummary/myshoppingcartsummary.php:257
+msgid "Format string for display:"
+msgstr "Chaîne de format pour l'affichage:"
+
+#: thecartpress-myshoppingcartsummary/myshoppingcartsummary.php:259
+#, php-format
+msgid ""
+"Format string to display cart, eg \"Cart %1$s (%2$s items, %3$s %4$s)\".<br /"
+">%1$s total price, %2$s number of items, %3$s total weight, %4$s weight "
+"unit, %5$s total discount."
+msgstr ""
+"Chaîne de format pour afficher panier, p. ex. \"Panier %1$s (%2$s articles, "
+"%3$s %4$s)\".<br />%1$s prix total, %2$s nombre d'articles, %3$s poids "
+"total, %4$s unité de poids, %5$s remise totale."
+
+#: thecartpress-myshoppingcartsummary/myshoppingcartsummary.php:262
+msgid "Format string for display when one item in cart:"
+msgstr "Chaîne de format pour l'affichage quand un article dans le panier:"
+
+#: thecartpress-myshoppingcartsummary/myshoppingcartsummary.php:264
+#, php-format
+msgid ""
+"Format string to display cart when there is only one item in the cart, eg "
+"\"Cart %1$s (1 item, %3$s %4$s)\". Arguments same as above."
+msgstr ""
+"Chaîne de format pour afficher panier quand il ya un seul article dans le "
+"panier, p. ex. \"Panier %1$s (1 article, %3$s %4$s)\". Arguments mêmes que "
+"ci-dessus."
+
+#: thecartpress-myshoppingcartsummary/myshoppingcartsummary.php:267
+msgid "Format string for display when cart empty:"
+msgstr "Chaîne de format pour l'affichage quand panier vide:"
+
+#: thecartpress-myshoppingcartsummary/myshoppingcartsummary.php:269
+msgid ""
+"Format string to display cart when there are no items in the cart, eg \"Cart "
+"is empty\"."
+msgstr ""
+"Chaîne de format pour afficher panier quand il n'y a aucun article dans le "
+"panier, p. ex. \"Panier est vide\"."
+
+#: thecartpress-myshoppingcartsummary/myshoppingcartsummary.php:272
+msgid "Not enough stock notice:"
+msgstr "L'info stock quand pas assez:"

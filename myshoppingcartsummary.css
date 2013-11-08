@@ -1,0 +1,31 @@
+/* My shopping cart summary widget */
+.tcpmyshoppingcartsummarywidget {
+	border-radius:0;
+	border:0 none;
+}
+.tcpmyshoppingcartsummarywidget div li {
+	line-height:21px;
+	list-style-type:none;
+	margin:0;
+}
+.tcpmyshoppingcartsummarywidget div.cart-empty li {
+	color:#999999;
+}
+/* Doing icon this awkward way (rather than just on li element) so that it's clickable (except when cart is empty). */
+.tcpmyshoppingcartsummarywidget div li.tcp_mscs_format a {
+	background:url(images/my-cart-icon.png) no-repeat scroll transparent 0 0;
+    padding:0 0 0 25px;
+}
+.tcpmyshoppingcartsummarywidget div.cart-empty li.tcp_mscs_format {
+	background:url(images/my-cart-icon-empty.png) no-repeat scroll transparent 0 3px;
+    padding:0 0 0 25px;
+}
+.tcpmyshoppingcartsummarywidget div.cart-empty li.tcp_mscs_format a {
+	background:none transparent;
+	padding:0;
+}
+/* For case when entire cart isn't linked. */
+.tcpmyshoppingcartsummarywidget div li.tcp_mscs_format.tcp_mscs_no_link {
+	background:url(images/my-cart-icon.png) no-repeat scroll transparent 0 3px;
+    padding:0 0 0 25px;
+}
